@@ -1,0 +1,14 @@
+buildscript {
+    dependencies {
+        classpath "de.gematik:gematik-parent-plugin:1.0.0"
+    }
+}
+
+apply plugin: 'nu.studer.credentials'
+apply plugin: 'maven-publish'
+apply plugin: 'maven'
+
+apply plugin: "de.gematik.parent"
+
+description = """DataModel-DPE"""
+group = 'de.gematik.ti'
