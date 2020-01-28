@@ -1,4 +1,4 @@
-package de.gematik.ti.schema.gen.utils;
+package de.gematik.ti.schema.gen.dpe.utils;
 
 import java.util.ArrayList;
 import java.util.List;
